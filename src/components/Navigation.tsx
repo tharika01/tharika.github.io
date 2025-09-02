@@ -54,7 +54,7 @@ const Navigation: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-black hover:text-gray-100 transition-colors"
+            className="md:hidden text-white hover:text-gray-100 transition-colors"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
