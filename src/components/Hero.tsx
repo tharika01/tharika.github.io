@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('paintings/portfolio backdrop.jpeg')`
+          backgroundImage: `url('https://media.gettyimages.com/id/544182028/photo/saint-remy-june-1889-oil-on-canvas-29-x-36-1-4-inches-located-in-the-museum-of-modern-art-new.jpg?s=612x612&w=0&k=20&c=1CGrw3gOmjWGbpxWNsSm4rHtiaUOxhPuzdSfQK56qpk=')`
         }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
@@ -23,25 +23,16 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-5xl md:text-7xl font-light mb-6 tracking-wide"
         >
-          Hello, I'm Tharika 🌟
+          Hello, I'm Tharika
         </motion.h1>
         
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-xl md:text-2xl mb-8 font-light leading-relaxed"
-        >
-          Code, Canvas, and Curiosity
-        </motion.p>
-
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
           className="inline-flex items-center space-x-2 text-sm tracking-widest uppercase"
         >
-          <span>See what I'm working on ↓</span>
+          <span>See what I'm working on Below ↓</span>
           <ChevronDown className="animate-bounce" size={20} />
         </motion.div>
       </div>

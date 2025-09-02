@@ -54,9 +54,9 @@ const Blog: React.FC = () => {
   });
 
   return (
-    <div className="min-h-screen bg-white pt-20">
+    <div className="min-h-screen bg-gray-500 pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-black text-white">
+      <section className="py-20 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -134,7 +134,7 @@ const Blog: React.FC = () => {
             >
               Coming Soon
             </motion.h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-gray-800">
               My latest blog posts and insights will appear here.
             </p>
           </div>

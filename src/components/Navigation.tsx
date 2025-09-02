@@ -24,12 +24,12 @@ const Navigation: React.FC = () => {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'
+      scrolled ? 'bg-black/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <Link to="/" className="text-xl font-bold text-black hover:text-gray-700 transition-colors">
-            Portfolio
+          <Link to="/" className="text-xl font-bold text-white hover:text-white-700 transition-colors">
+            Code, Canvas and Curiosity
           </Link>
 
           {/* Desktop Navigation */}
@@ -40,13 +40,13 @@ const Navigation: React.FC = () => {
                 to={item.path}
                 className={`relative py-2 px-1 text-sm font-medium transition-colors duration-200 ${
                   location.pathname === item.path
-                    ? 'text-black'
-                    : 'text-gray-700 hover:text-black'
+                    ? 'text-white'
+                    : 'text-gray-100 hover:text-gray-150'
                 }`}
               >
                 {item.label}
                 {location.pathname === item.path && (
-                  <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-black"></span>
+                  <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-white"></span>
                 )}
               </Link>
             ))}
@@ -54,7 +54,7 @@ const Navigation: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-black hover:text-gray-700 transition-colors"
+            className="md:hidden text-white hover:text-gray-100 transition-colors"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -70,8 +70,8 @@ const Navigation: React.FC = () => {
                 to={item.path}
                 className={`block py-3 px-4 text-sm font-medium transition-colors ${
                   location.pathname === item.path
-                    ? 'text-black bg-gray-50'
-                    : 'text-gray-600 hover:text-black hover:bg-gray-50'
+                    ? 'text-white bg-gray-50'
+                    : 'text-white-600 hover:text-gray hover:bg-gray-50'
                 }`}
                 onClick={() => setIsOpen(false)}
               >
