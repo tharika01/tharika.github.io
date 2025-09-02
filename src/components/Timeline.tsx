@@ -29,7 +29,7 @@ const timelineData: TimelineItem[] = [
     company: "A.P Moller Maersk",
     location: "Bangalore, India",
     period: "2023 - 2024",
-    description: "During my internship at A.P. Moller Maersk, I developed conversational AI prototypes using Rasa and LangChain, and contributed to the setup of CI/CD pipelines through GitHub Actions. My responsibilities included adding new features to existing APIs with Spring Boot (Java) and writing comprehensive JUnit tests to ensure code quality and reliability. I built operational dashboards using Grafana and Prometheus to enable real-time monitoring and visualization. Furthermore, I implemented a broker health monitoring solution by scripting message flows across multiple ActiveMQ Artemis brokers, exporting key metrics to Prometheus via Telegraf, and visualizing the system's health on a Grafana dashboard.",
+    description: "During my internship at A.P. Moller Maersk, I developed conversational AI prototypes using Rasa and LangChain, and contributed to the setup of CI/CD pipelines through GitHub Actions. My responsibilities included adding new features to existing APIs with Spring Boot (Java) and writing comprehensive JUnit tests to ensure code quality and reliability. I built operational dashboards using Grafana and Prometheus to enable real-time monitoring and visualization. Furthermore, I implemented a broker health monitoring solution by scripting publish subscribe message flows across ActiveMQ Artemis brokers, exporting key metrics to Prometheus via Telegraf, and visualizing the system's health on a Grafana dashboard.",
     type: "work"
   },
 ];
