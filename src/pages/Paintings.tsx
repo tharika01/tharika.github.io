@@ -6,7 +6,6 @@ import { X, Palette } from 'lucide-react';
 interface Painting {
   id: number;
   title: string;
-  year: string;
   medium: string;
   description: string;
   imageUrl: string;
@@ -16,7 +15,6 @@ const paintings: Painting[] = [
   {
     id: 1,
     title: "Vibrant Wisdom",
-    year: "2023",
     medium: "Acrylic on Canvas",
     description: "A serene meditation on inner peace and enlightenment, capturing the essence of spiritual tranquility through careful brushwork and thoughtful composition.",
     imageUrl: "paintings/buddha.jpeg"
@@ -24,7 +22,6 @@ const paintings: Painting[] = [
   {
     id: 2,
     title: "Divine Slumber",
-    year: "2023",
     medium: "Acrylic on Canvas",
     description: "The remover of obstacles depicted with vibrant colors and intricate details, celebrating the divine energy and wisdom of Lord Ganesha.",
     imageUrl: "paintings/ganesha painting.jpeg"
@@ -32,7 +29,6 @@ const paintings: Painting[] = [
   {
     id: 3,
     title: "Ganesha's Radiance",
-    year: "2022",
     medium: "Acrylic on Canvas",
     description: "A second interpretation of the beloved deity, exploring different color palettes and artistic techniques while maintaining spiritual reverence.",
     imageUrl: "paintings/ganesha 2.jpeg"
@@ -40,7 +36,6 @@ const paintings: Painting[] = [
   {
     id: 4,
     title: "Celestial Twins",
-    year: "2022",
     medium: "Acrylic on Canvas",
     description: "A cosmic dance between day and night, exploring the eternal balance of opposing forces through symbolic imagery and harmonious color relationships.",
     imageUrl: "paintings/sun and moon.jpeg"
@@ -48,7 +43,6 @@ const paintings: Painting[] = [
   {
     id: 5,
     title: "Dancing Leaves",
-    year: "2022",
     medium: "Acrylic on Canvas",
     description: "A cosmic dance between day and night, exploring the eternal balance of opposing forces through symbolic imagery and harmonious color relationships.",
     imageUrl: "paintings/leaf.jpeg"
@@ -56,7 +50,6 @@ const paintings: Painting[] = [
   {
     id: 6,
     title: "Aurora Mandala",
-    year: "2022",
     medium: "Acrylic on Canvas",
     description: "A cosmic dance between day and night, exploring the eternal balance of opposing forces through symbolic imagery and harmonious color relationships.",
     imageUrl: "paintings/abstract art.jpeg"
@@ -125,7 +118,6 @@ const Paintings: React.FC = () => {
                     </h3>
                     
                     <div className="flex justify-between items-center text-white-200 text-sm">
-                      <span>{painting.year}</span>
                       <span>{painting.medium}</span>
                     </div>
                   </div>
@@ -175,7 +167,6 @@ const Paintings: React.FC = () => {
                   </h2>
                   
                   <div className="flex items-center space-x-4 text-gray-600 mb-4">
-                    <span>{selectedPainting.year}</span>
                     <span>•</span>
                     <span>{selectedPainting.medium}</span>
                   </div>

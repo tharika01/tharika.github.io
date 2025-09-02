@@ -20,15 +20,7 @@ const timelineData: TimelineItem[] = [
     company: "A.P Moller Maersk",
     location: "Bangalore, India",
     period: "2024 - Present",
-    description: `
-- Developed and enhanced RESTful APIs using Spring Boot (Java).
-- Built and configured Apache Camel routes, including a custom email connector.
-- Architected backend APIs for a semantic indexing doc agent, enabling intelligent Q&A on product docs via UI and GitHub Discussions.
-- Designed automated evaluation pipelines to monitor and improve doc agent performance.
-- Completed LLM Lab with Dmitry Buykin, exploring advanced AI applications.
-- Served as Teaching Assistant for the Applied AI Crash Course (Cohort 2), supporting hands-on learning in practical AI development.
-- Optimized Docker images for efficient production deployment.
-    `.trim(),
+    description: "As an Associate Software Engineer at A.P. Moller Maersk, I contributed to building and enhancing RESTful APIs with Spring Boot (Java) and developed robust integrations using Apache Camel, including a custom email connector. I implemented backend APIs for a semantic indexing doc agent, enabling intelligent question-answering on product documentation via both UI and GitHub Discussions. To ensure performance and accuracy, I designed automated evaluation pipelines. I also completed the LLM Lab under Dmitry Buykin, which deepened my understanding of advanced AI applications, and supported hands-on learning as a Teaching Assistant for the Applied AI Crash Course (Cohort 2).",
     type: "work"
   },
   {
@@ -37,14 +29,7 @@ const timelineData: TimelineItem[] = [
     company: "A.P Moller Maersk",
     location: "Bangalore, India",
     period: "2023 - 2024",
-    description: `
-- Developed conversational AI prototypes using Rasa (open-source NLP framework) and LangChain.
-- Contributed to setting up CI/CD pipelines with GitHub Actions.
-- Added new features to existing APIs using Spring Boot (Java), supporting ongoing product requirements.
-- Wrote and maintained comprehensive JUnit tests to improve application reliability and maintainability.
-- Built operational dashboards in Grafana and Prometheus for real-time monitoring and visualization of key metrics.
-- Implemented a broker health monitoring solution by writing Python scripts to send and consume messages across multiple ActiveMQ Artemis brokers; exported health metrics via Telegraf to Prometheus, and visualized system health on a Grafana dashboard.
-    `.trim(),
+    description: "During my internship at A.P. Moller Maersk, I developed conversational AI prototypes using Rasa and LangChain, and contributed to the setup of CI/CD pipelines through GitHub Actions. My responsibilities included adding new features to existing APIs with Spring Boot (Java) and writing comprehensive JUnit tests to ensure code quality and reliability. I built operational dashboards using Grafana and Prometheus to enable real-time monitoring and visualization. Furthermore, I implemented a broker health monitoring solution by scripting message flows across multiple ActiveMQ Artemis brokers, exporting key metrics to Prometheus via Telegraf, and visualizing the system's health on a Grafana dashboard.",
     type: "work"
   },
 ];
