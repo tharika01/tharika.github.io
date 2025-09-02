@@ -71,7 +71,7 @@ const Paintings: React.FC = () => {
   });
 
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-100 pt-20">
+    <div className="min-h-screen bg-gray-500 text-gray-100 pt-20">
       {/* Hero Section */}
       <section className="py-20 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -90,7 +90,7 @@ const Paintings: React.FC = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl text-purple-200 leading-relaxed"
+            className="text-xl text-white-200 leading-relaxed"
           >
             Where colors dance and emotions come alive on canvas
           </motion.p>
@@ -120,11 +120,11 @@ const Paintings: React.FC = () => {
                   </div>
                   
                   <div className="p-6">
-                    <h3 className="text-white text-xl font-semibold mb-2 group-hover:text-purple-200 transition-colors">
+                    <h3 className="text-white text-xl font-semibold mb-2 group-hover:text-white-200 transition-colors">
                       {painting.title}
                     </h3>
                     
-                    <div className="flex justify-between items-center text-purple-200 text-sm">
+                    <div className="flex justify-between items-center text-white-200 text-sm">
                       <span>{painting.year}</span>
                       <span>{painting.medium}</span>
                     </div>

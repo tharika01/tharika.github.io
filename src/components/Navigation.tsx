@@ -28,7 +28,7 @@ const Navigation: React.FC = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <Link to="/" className="text-xl font-bold text-black hover:text-gray-600 transition-colors">
+          <Link to="/" className="text-xl font-bold text-black hover:text-gray-700 transition-colors">
             Portfolio
           </Link>
 
@@ -41,7 +41,7 @@ const Navigation: React.FC = () => {
                 className={`relative py-2 px-1 text-sm font-medium transition-colors duration-200 ${
                   location.pathname === item.path
                     ? 'text-black'
-                    : 'text-gray-600 hover:text-black'
+                    : 'text-gray-700 hover:text-black'
                 }`}
               >
                 {item.label}
@@ -54,7 +54,7 @@ const Navigation: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-black hover:text-gray-600 transition-colors"
+            className="md:hidden text-black hover:text-gray-700 transition-colors"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
