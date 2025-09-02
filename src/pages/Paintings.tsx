@@ -19,7 +19,7 @@ const paintings: Painting[] = [
     year: "2023",
     medium: "Acrylic on Canvas",
     description: "A serene meditation on inner peace and enlightenment, capturing the essence of spiritual tranquility through careful brushwork and thoughtful composition.",
-    imageUrl: "/paintings/buddha.jpeg"
+    imageUrl: "paintings/buddha.jpeg"
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const paintings: Painting[] = [
     year: "2023",
     medium: "Acrylic on Canvas",
     description: "The remover of obstacles depicted with vibrant colors and intricate details, celebrating the divine energy and wisdom of Lord Ganesha.",
-    imageUrl: "/paintings/ganesha painting.jpeg"
+    imageUrl: "paintings/ganesha painting.jpeg"
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const paintings: Painting[] = [
     year: "2022",
     medium: "Acrylic on Canvas",
     description: "A second interpretation of the beloved deity, exploring different color palettes and artistic techniques while maintaining spiritual reverence.",
-    imageUrl: "/paintings/ganesha 2.jpeg"
+    imageUrl: "paintings/ganesha 2.jpeg"
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const paintings: Painting[] = [
     year: "2022",
     medium: "Acrylic on Canvas",
     description: "A cosmic dance between day and night, exploring the eternal balance of opposing forces through symbolic imagery and harmonious color relationships.",
-    imageUrl: "/paintings/sun and moon.jpeg"
+    imageUrl: "paintings/sun and moon.jpeg"
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const paintings: Painting[] = [
     year: "2022",
     medium: "Acrylic on Canvas",
     description: "A cosmic dance between day and night, exploring the eternal balance of opposing forces through symbolic imagery and harmonious color relationships.",
-    imageUrl: "/paintings/leaf.jpeg"
+    imageUrl: "paintings/leaf.jpeg"
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ const paintings: Painting[] = [
     year: "2022",
     medium: "Acrylic on Canvas",
     description: "A cosmic dance between day and night, exploring the eternal balance of opposing forces through symbolic imagery and harmonious color relationships.",
-    imageUrl: "/paintings/abstract art.jpeg"
+    imageUrl: "paintings/abstract art.jpeg"
   }
 ];
 
