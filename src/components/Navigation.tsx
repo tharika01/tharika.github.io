@@ -54,7 +54,7 @@ const Navigation: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-white hover:text-gray-100 transition-colors"
+            className="md:hidden text-black hover:text-gray-100 transition-colors"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -63,15 +63,15 @@ const Navigation: React.FC = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200">
+          <div className="md:hidden py-4 border-t border-gray-700 bg-black/95">
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`block py-3 px-4 text-sm font-medium transition-colors ${
+                className={`block py-3 px-4 text-base font-medium rounded transition-colors ${
                   location.pathname === item.path
-                    ? 'text-white bg-gray-50'
-                    : 'text-white-600 hover:text-gray hover:bg-gray-50'
+                    ? 'text-emerald-400 bg-black'
+                    : 'text-gray-100 hover:text-emerald-400 hover:bg-gray-800'
                 }`}
                 onClick={() => setIsOpen(false)}
               >
@@ -80,6 +80,7 @@ const Navigation: React.FC = () => {
             ))}
           </div>
         )}
+
       </div>
     </nav>
   );
